@@ -1,0 +1,260 @@
+/* Configuración general */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #a8e04d, #72c600); /* Degradado verde manzana a verde más oscuro */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo para el encabezado */
+header {
+    background: linear-gradient(to bottom, #7ccf47, #6ba837); /* Degradado verde manzana fuerte a verde manzana oscuro */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+header h1 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+header h4 {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* Menú de navegación */
+nav .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav .menu li {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+nav .menu li a {
+    color: #fff;
+    padding: 10px 15px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+nav .menu li a:hover {
+    background: linear-gradient(to right, #72c600, #6ba837); /* Degradado verde claro a verde oscuro */
+}
+
+/* Estilo para el main */
+main {
+    padding: 20px;
+}
+
+main h1, main h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section#home {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: justify;
+}
+
+section#home img {
+    display: block;
+    margin: 15px auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Estilo para los códigos QR */
+.qr-code-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 25%;
+    max-width: 150px; /* Ajusta el tamaño máximo del contenedor */
+}
+
+.qr-code {
+    display: block;
+    margin: 0 auto;
+    width: 100px; /* Ancho fijo para todos los códigos QR */
+    height: 100px; /* Altura fija para todos los códigos QR */
+    border-radius: 10px;
+}
+
+/* Botón de volver arriba */
+.boton {
+    display: block;
+    width: 150px;
+    margin: 30px auto;
+    padding: 10px;
+    background: linear-gradient(to right, #72c600, #6ba837); /* Degradado verde claro a verde oscuro */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.boton:hover {
+    background: linear-gradient(to right, #6ba837, #72c600); /* Inversión del degradado */
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #2c3e50; /* Gris oscuro */
+    color: #f0f0f0;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #f0f0f0;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #7ccf47; /* Verde manzana fuerte */
+}
+
+/* Sección principal */
+.page {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Tarjetas */
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #444;
+}
+
+.card p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+/* Imágenes redondeadas */
+.rounded-image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+/* Estilo del menú */
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.menu li a:hover {
+    background: linear-gradient(to right, #72c600, #6ba837); /* Degradado verde claro a verde oscuro */
+}
+
+/* Estilo para las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Eliminar el espacio entre celdas */
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra alrededor de la tabla */
+    border-radius: 10px;
+    overflow: hidden; /* Asegura que las esquinas redondeadas se mantengan */
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #cfee5f;
+}
+
+th {
+    background-color: #72c600; /* Verde claro */
+    color: rgb(202, 241, 95);
+    font-weight: bold;
+}
+
+td {
+    background-color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f4f4f4; /* Fila de color alternado */
+}
+
+tr:hover {
+    background-color: #e6f7e6; /* Resalta la fila al pasar el cursor */
+}
+
+table caption {
+    font-size: 1.5em;
+    margin: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+table, th, td {
+    border: 1px solid #ddd; /* Borde de la tabla */
+}
+
+table th, table td {
+    border-radius: 5px;
+    text-align: center; /* Alineación centrada de texto en celdas */
+}
+
+table th {
+    background-color: #6ba837; /* Fondo verde oscuro en los encabezados */
+    color: white;
+}
+
+table td {
+    background-color: #f9f9f9; /* Fondo suave en las celdas de datos */
+    color: #333;
+}
+
+table tr:hover td {
+    background-color: #eaf1e1; /* Fondo suave al pasar sobre las filas */
+}
